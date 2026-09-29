@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CLUBMATES</title>
 
     <style>
@@ -21,21 +22,25 @@
         header {
             background: #111;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 25px 15px;
         }
 
-       logo {
-    width: 120px;
-    max-width: 80%;
-    margin-bottom: 10px;
-} header h1 {
+        .logo {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin: 0 auto 15px auto;
+        }
+
+        header h1 {
             font-size: 32px;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
         }
 
         nav {
-            margin-top: 15px;
+            margin-top: 18px;
         }
 
         nav a {
@@ -70,7 +75,7 @@
         }
 
         .productos {
-            padding: 40px 20px;
+            padding: 45px 20px;
             max-width: 1100px;
             margin: auto;
         }
@@ -127,7 +132,13 @@
 <body>
 
 <header>
-    <img src="IMG-20260928-WA0031.jpg" alt="Logo CLUBMATES" class="logo">
+
+    <img
+        src="./IMG-20260928-WA0031.jpg"
+        alt="Logo de CLUBMATES"
+        class="logo"
+    >
+
     <h1>CLUBMATES</h1>
 
     <nav>
@@ -135,12 +146,21 @@
         <a href="#productos">Productos</a>
         <a href="#contacto">Contacto</a>
     </nav>
+
 </header>
 
 <section class="inicio" id="inicio">
+
     <h2>Bienvenidos a CLUBMATES</h2>
-    <p>Encontrá tus productos favoritos.</p>
-    <a href="#productos" class="boton">Ver productos</a>
+
+    <p>
+        Encontrá tus productos favoritos.
+    </p>
+
+    <a href="#productos" class="boton">
+        Ver productos
+    </a>
+
 </section>
 
 <section class="productos" id="productos">
@@ -150,36 +170,57 @@
     <div class="catalogo">
 
         <div class="producto">
+
             <div class="imagen">
                 FOTO DEL PRODUCTO
             </div>
 
             <h3>Producto 1</h3>
-            <p class="precio">$0</p>
 
-            <a href="#" class="boton">Comprar</a>
+            <p class="precio">
+                $0
+            </p>
+
+            <a href="#" class="boton">
+                Comprar
+            </a>
+
         </div>
 
         <div class="producto">
+
             <div class="imagen">
                 FOTO DEL PRODUCTO
             </div>
 
             <h3>Producto 2</h3>
-            <p class="precio">$0</p>
 
-            <a href="#" class="boton">Comprar</a>
+            <p class="precio">
+                $0
+            </p>
+
+            <a href="#" class="boton">
+                Comprar
+            </a>
+
         </div>
 
         <div class="producto">
+
             <div class="imagen">
                 FOTO DEL PRODUCTO
             </div>
 
             <h3>Producto 3</h3>
-            <p class="precio">$0</p>
 
-            <a href="#" class="boton">Comprar</a>
+            <p class="precio">
+                $0
+            </p>
+
+            <a href="#" class="boton">
+                Comprar
+            </a>
+
         </div>
 
     </div>
@@ -187,7 +228,11 @@
 </section>
 
 <footer id="contacto">
-    <p>© 2026 CLUBMATES</p>
+
+    <p>
+        © 2026 CLUBMATES
+    </p>
+
 </footer>
 
 </body>
